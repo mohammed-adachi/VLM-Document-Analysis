@@ -33,5 +33,5 @@ It offers two ways to run the model: a **Google Colab Notebook** (for GPU accele
 
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/ton-user/ton-repo.git](https://github.com/ton-user/ton-repo.git)
-   cd ton-repo
+   git clone [https://github.com/mohammed-adachi/VLM-Document-Analysis])
+   cd VLM-Document-Analysis
