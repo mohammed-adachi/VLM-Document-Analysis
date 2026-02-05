@@ -1,0 +1,95 @@
+{
+    "input_path": "image.png",
+    "page_index": null,
+    "page_count": null,
+    "width": 1060,
+    "height": 342,
+    "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "use_seal_recognition": false,
+        "use_ocr_for_image_block": false,
+        "format_block_content": false,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ],
+        "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "table",
+            "block_content": "<table><tr><td></td><td>1Q25</td><td>4Q24</td><td>Change vs 4Q24</td><td>1Q24</td><td>Change vs 1Q24</td></tr><tr><td>Adjusted net income (TotalEnergies share) $ ^{(1)} $</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>- in billions of dollars (B)</td><td>4.2</td><td>4.4</td><td>-5%</td><td>5.1</td><td>-18%</td></tr><tr><td>- in dollars per share</td><td>1.83</td><td>1.90</td><td>-4%</td><td>2.14</td><td>-15%</td></tr><tr><td>Net income (TotalEnergies share) (B)</td><td>3.9</td><td>4.0</td><td>-3%</td><td>5.7</td><td>-33%</td></tr><tr><td>Adjusted EBITDA $ ^{(1)} $ (B)</td><td>10.5</td><td>10.5</td><td>-</td><td>11.5</td><td>-9%</td></tr><tr><td>Cash flow from operations excluding working capital (CFFO) $ ^{(1)} $ (B)</td><td>7.0</td><td>7.2</td><td>-2%</td><td>8.2</td><td>-14%</td></tr></table>",
+            "block_bbox": [
+                140,
+                27,
+                1031,
+                326
+            ],
+            "block_id": 0,
+            "block_order": null,
+            "group_id": 0,
+            "block_polygon_points": [
+                [
+                    140.0,
+                    27.0
+                ],
+                [
+                    1031.0,
+                    27.0
+                ],
+                [
+                    1031.0,
+                    326.0
+                ],
+                [
+                    140.0,
+                    326.0
+                ]
+            ]
+        }
+    ],
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9172160029411316,
+                "coordinate": [
+                    140,
+                    27,
+                    1031,
+                    326
+                ],
+                "order": null,
+                "polygon_points": [
+                    [
+                        140.0,
+                        27.0
+                    ],
+                    [
+                        1031.0,
+                        27.0
+                    ],
+                    [
+                        1031.0,
+                        326.0
+                    ],
+                    [
+                        140.0,
+                        326.0
+                    ]
+                ]
+            }
+        ]
+    }
+}
